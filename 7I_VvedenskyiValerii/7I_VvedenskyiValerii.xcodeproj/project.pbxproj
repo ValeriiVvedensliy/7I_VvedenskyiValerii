@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E029B490269DA96700E359D9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029B48F269DA96700E359D9 /* main.swift */; };
+		E029B499269DF1AC00E359D9 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029B498269DF1AC00E359D9 /* Car.swift */; };
+		E029B49B269DF1E200E359D9 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029B49A269DF1E200E359D9 /* Setting.swift */; };
+		E029B49D269DF24E00E359D9 /* SportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029B49C269DF24E00E359D9 /* SportCar.swift */; };
+		E029B49F269DF29600E359D9 /* SettingCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029B49E269DF29600E359D9 /* SettingCar.swift */; };
+		E029B4A2269DF56E00E359D9 /* CarError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E029B4A1269DF56E00E359D9 /* CarError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		E029B48C269DA96700E359D9 /* 7I_VvedenskyiValerii */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 7I_VvedenskyiValerii; sourceTree = BUILT_PRODUCTS_DIR; };
 		E029B48F269DA96700E359D9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E029B498269DF1AC00E359D9 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		E029B49A269DF1E200E359D9 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		E029B49C269DF24E00E359D9 /* SportCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCar.swift; sourceTree = "<group>"; };
+		E029B49E269DF29600E359D9 /* SettingCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCar.swift; sourceTree = "<group>"; };
+		E029B4A1269DF56E00E359D9 /* CarError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,38 @@
 		E029B48E269DA96700E359D9 /* 7I_VvedenskyiValerii */ = {
 			isa = PBXGroup;
 			children = (
+				E029B4A0269DF55600E359D9 /* Enums */,
+				E029B497269DEAA000E359D9 /* Protocols */,
+				E029B496269DEA9200E359D9 /* Classes */,
 				E029B48F269DA96700E359D9 /* main.swift */,
 			);
 			path = 7I_VvedenskyiValerii;
+			sourceTree = "<group>";
+		};
+		E029B496269DEA9200E359D9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E029B49C269DF24E00E359D9 /* SportCar.swift */,
+				E029B49E269DF29600E359D9 /* SettingCar.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E029B497269DEAA000E359D9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E029B498269DF1AC00E359D9 /* Car.swift */,
+				E029B49A269DF1E200E359D9 /* Setting.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E029B4A0269DF55600E359D9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E029B4A1269DF56E00E359D9 /* CarError.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E029B49F269DF29600E359D9 /* SettingCar.swift in Sources */,
+				E029B499269DF1AC00E359D9 /* Car.swift in Sources */,
 				E029B490269DA96700E359D9 /* main.swift in Sources */,
+				E029B4A2269DF56E00E359D9 /* CarError.swift in Sources */,
+				E029B49B269DF1E200E359D9 /* Setting.swift in Sources */,
+				E029B49D269DF24E00E359D9 /* SportCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
